@@ -25,3 +25,8 @@
   clear: both;
   display: table;
 }
+
+.container {
+  position: relative;
+  width: 100%;
+}
