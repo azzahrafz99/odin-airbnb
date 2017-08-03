@@ -6,17 +6,18 @@
     <link rel="shortcut icon" href="assets/images/logo.png" />
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="header">
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-sm-6">
           <img src="assets/images/logo.png" alt="" class="logo">
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-sm-6">
           <ul>
             <li><a href="#">Become a Host</a></li>
             <li><a href="#">Help</a></li>
@@ -33,19 +34,19 @@
           <a href="#"><h2>Book unique homes and experience a city like a local.</h2></a>
           <div class="booking-form">
             <div class="row">
-              <div class="col-4">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="form-field where">
                   <label for="">Where</label><br>
                   <input type="text" name="where" value="" placeholder="Anywhere">
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="form-field when">
                   <label for="">When</label><br>
                   <input placeholder="Date" class="when" type="text" onfocus="(this.type='date')"  id="date">
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="form-field guest">
                   <label for="">Guest</label><br>
                   <input type="number" name="guest" value="" placeholder="Guest">
@@ -56,53 +57,59 @@
           </div>
         </div>
       </div>
-      <nav class="menu-bar">
-        <ul>
-          <li><a href="#">FOR YOU</a></li>
-          <li><a href="#">HOMES</a></li>
-          <li><a href="#">EXPERIENCES</a></li>
-          <li><a href="#">PLACES</a></li>
-        </ul>
-      </nav>
+      <div class="row">
+        <div class="cl-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <nav class="menu-bar">
+            <ul>
+              <li><a href="#">FOR YOU</a></li>
+              <li><a href="#">HOMES</a></li>
+              <li><a href="#">EXPERIENCES</a></li>
+              <li><a href="#">PLACES</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       <section class="experience">
         <div class="row">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <h3>Experiences</h3>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <a href="#">See All ></a>
             </div>
           </div>
-          <div class="grid">
-            <div class="col-3">
-              <div class="description">
-                <img src="assets/images/ex1.jpg" alt="">
-                <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+          <div class="row">
+            <div class="grid">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="description">
+                  <img src="assets/images/art1.jpg" alt="">
+                  <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="grid">
-            <div class="col-3">
-              <div class="description">
-                <img src="assets/images/art4.png" alt="">
-                <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+            <div class="grid">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="description">
+                  <img src="assets/images/art4.png" alt="">
+                  <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="grid">
-            <div class="col-3">
-              <div class="description">
-                <img src="assets/images/ex1.jpg" alt="">
-                <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+            <div class="grid">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="description">
+                  <img src="assets/images/ex1.jpg" alt="">
+                  <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="grid">
-            <div class="col-3">
-              <div class="description">
-                <img src="assets/images/ex1.jpg" alt="">
-                <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+            <div class="grid">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="description">
+                  <img src="assets/images/ex1.jpg" alt="">
+                  <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
+                </div>
               </div>
             </div>
           </div>
@@ -111,15 +118,15 @@
       <section class="home">
         <div class="row">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <h3>Homes</h3>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <a href="#">See All ></a>
             </div>
           </div>
           <div class="grid">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="description">
                 <img src="assets/images/home1.png" alt="">
                 <p><span>Rp671,466 Twins Apartment in Center 4*</span></p>
@@ -128,7 +135,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="description">
                 <img src="assets/images/home2.png" alt="">
                 <p><span>Rp671,466 Twins Apartment in Center 4*</span></p>
@@ -137,7 +144,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="description">
                 <img src="assets/images/home3.png" alt="">
                 <p><span>Rp671,466 Twins Apartment in Center 4*</span></p>
@@ -150,15 +157,15 @@
       <section class="destination">
         <div class="row">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <h3>Featured Destinations</h3>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <a href="#">See All ></a>
             </div>
           </div>
           <div class="grid">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/des1.jpg" alt="">
                 <p><span>Los Angeles</span></p>
@@ -166,7 +173,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/des2.jpg" alt="">
                 <p><span>London</span></p>
@@ -174,7 +181,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/des3.jpg" alt="">
                 <p><span>Florence</span></p>
@@ -182,7 +189,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/des4.jpg" alt="">
                 <p><span>Tokyo</span></p>
@@ -190,7 +197,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/des5.jpg" alt="">
                 <p><span>Paris</span></p>
@@ -198,7 +205,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/des6.jpg" alt="">
                 <p><span>San Fransisco</span></p>
@@ -210,15 +217,15 @@
       <section class="art">
         <div class="row">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <h3>Art & Design experiences</h3>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <a href="#">See All ></a>
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/art1.jpg" alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -226,7 +233,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/art2.jpg" alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -234,7 +241,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/art3.png" alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -242,7 +249,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/art4.png  " alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -254,15 +261,15 @@
       <section class="london">
         <div class="row">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <h3>Places In London</h3>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <a href="#">See All ></a>
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="london1">
                 <div class="overlay">
                   <div class="tag">
@@ -279,7 +286,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="london2">
                 <div class="overlay">
                   <div class="tag">
@@ -296,7 +303,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="london3">
                 <div class="overlay">
                   <div class="tag">
@@ -313,7 +320,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="london4">
                 <div class="overlay">
                   <div class="tag">
@@ -334,15 +341,15 @@
       <section class="fashion">
         <div class="row">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <h3>Fashion experiences</h3>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <a href="#">See All ></a>
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/fashion1.png" alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -350,7 +357,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/fashion2.png" alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -358,7 +365,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/fashion3.png" alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -366,7 +373,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
               <div class="description">
                 <img src="assets/images/fashion4.png  " alt="">
                 <p><span>Rp887,040</span> Guided electric biking in the Calanques</p>
@@ -378,15 +385,15 @@
       <section class="sydney">
         <div class="row">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <h3>Places In Sydney</h3>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
               <a href="#">See All ></a>
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="sydney1">
                 <div class="overlay">
                   <div class="tag">
@@ -403,7 +410,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="sydney2">
                 <div class="overlay">
                   <div class="tag">
@@ -420,7 +427,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="sydney3">
                 <div class="overlay">
                   <div class="tag">
@@ -437,7 +444,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div class="sydney4">
                 <div class="overlay">
                   <div class="tag">
@@ -457,7 +464,7 @@
       </section>
       <footer>
         <div class="row">
-          <div class="col-3">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="lang">
               <div class="language">
                 <select name="">
@@ -475,7 +482,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <ul>
               <div class="description">
                 <p><span>Airbnb</span></p>
@@ -488,7 +495,7 @@
               <li><a href="#">Diversity & Belonging</a></li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <ul>
               <div class="description">
                 <p><span>Discover</span></p>
@@ -502,7 +509,7 @@
               <li><a href="#">Airbnbmag</a></li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <ul>
               <div class="description">
                 <p><span>Hosting</span></p>
@@ -517,13 +524,13 @@
       </footer>
       <section class="copyright">
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <ul>
               <li><img src="assets/images/airbnb.png" alt=""></li>
               <li>&copy; Airbnb, Inc</li>
             </ul>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <div class="right">
               <ul>
                 <li>Terms</li>
