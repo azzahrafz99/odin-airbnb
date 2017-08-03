@@ -40,8 +40,12 @@
 }
 
 @media screen and (max-width: 780px) {
-  .content, .content footer, .copyright  {
+  .content  {
     margin: 30px;
+  }
+
+  .content footer, .copyright {
+    margin: 10px;
   }
 
   .booking-form button {
@@ -83,7 +87,7 @@
   }
 
   .booking-form button {
-    margin-left: 200px;
+    margin-left: 250px;
   }
 }
 
@@ -119,7 +123,7 @@
     margin: 0 0 100px 5px;
   }
 
-  footer {
+  .content footer {
     margin: 0;
   }
 
