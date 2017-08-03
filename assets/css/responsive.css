@@ -1,30 +1,11 @@
-@media screen and (max-width: 1200px) {
-  .booking-form button {
-    float: right;
+@media screen and (max-width: 1300px) {
+  .form-field button {
     position: absolute;
-    margin-left: -50px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .booking-form button {
-    float: right;
-    position: absolute;
-    margin-left: 5px;
-  }
-
-  .booking-form input[type="number"] {
-    width: 100px;
+    margin-left: -10px;
   }
 }
 
 @media screen and (max-width: 950px) {
-  .booking-form button {
-    float: right;
-    position: absolute;
-    margin-left: 10px;
-  }
-
   .content .book h2 {
     font-size: 20pt;
     width: 80%;
@@ -47,42 +28,64 @@
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 780px) {
   .booking-form button {
-    float: right;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 300px;
   }
 
-  .booking-form input[type="number"] {
-    width: 50px;
+  .content .book h2 {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .content, .content footer, .copyright  {
+    margin: 30px;
+  }
+
+  .booking-form button {
+    margin-left: 480px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .booking-form button {
+    margin-left: 450px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .booking-form button {
+    margin-left: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .booking-form button {
+    margin-left: 350px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .content .book .booking-form button {
-    margin: 60px 0 0 -65px;
-  }
-
   .menu-bar {
     padding-top: 20px;
   }
-}
 
-@media screen and (max-width: 620px) {
-  .content .book h2, .content .book h1 {
-    margin-left: -30pt;
-  }
-
-  .content .book h2 {
-    width: 300px;
-  }
-
-  .content .book .booking-form button {
-    margin: 70px 0 0 -65px;
+  .booking-form button {
+    margin-left: 300px;
   }
 }
 
+@media screen and (max-width: 550px) {
+  .menu-bar {
+    padding-top: 20px;
+  }
+
+  .booking-form button {
+    margin-left: 200px;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .content {
@@ -90,7 +93,7 @@
   }
 
   .content .book h2, .content .book h1 {
-    margin-left: 20;
+    margin-left: 20px;
   }
 
   .content .book h2 {
@@ -103,7 +106,7 @@
   }
 
   .booking-form button {
-    margin: 30px 0 0 -15px;
+    margin-left: 80px;
   }
 
   .menu-bar {

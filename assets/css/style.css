@@ -11,6 +11,9 @@ h1 {
   color: #FF5A5F;
 }
 
+input:focus {
+  outline: none;
+}
 
 h3, p, a { color: #484848; }
 
@@ -80,8 +83,6 @@ a:focus {
 
 .booking-form {
   margin-top: 50px;
-  margin-left: -45px;
-  margin-right: -45px;
 }
 
 .form-field {
@@ -122,13 +123,11 @@ a:focus {
 .where {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  /*margin-left: 31px;*/
 }
 
 .guest {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  /*margin-left: -31px;*/
 }
 
 /* MENU BAR */
@@ -142,6 +141,7 @@ a:focus {
   display: inline-block;
   padding: 5px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .menu-bar ul li a {
